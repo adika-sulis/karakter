@@ -91,6 +91,17 @@ a:active {
     color: rgb(183, 137, 106);
 }
 
+
+::selection {
+    background-color: rgba(80, 70, 60, 1);
+    color: #e8e2d8;
+
+}
+
+img::selection {
+    background-color: rgb(177, 159, 141);
+}
+
 .leirasCim {
     font-size: 2rem;
     font-weight: 700;
@@ -116,13 +127,15 @@ a:active {
     margin-bottom: 0.2rem;
 }
 
+
 p {
     font-size: 1.3rem;
     font-weight: 400;
-    margin-left: 1rem;
-
+    text-align: justify;
     margin-top: 1rem;
     margin-bottom: 0.2rem;
+    margin-right: 4.29rem; 
+    margin-left: 4.29rem;
 
 }
 .tortenete {
@@ -133,12 +146,12 @@ p {
     display: block;
     position: static;
 }
-
+/*
 .tortenetResz {
     margin: 0rem 2.5rem;
 
 }
-
+*/
 
 footer {
     font-size: 0.6rem;
