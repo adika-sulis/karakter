@@ -43,16 +43,29 @@ nav:hover {
     margin-left: 1rem;
 }
 
-.linkek {
+.link1 {
     display: inline-block;
-    position: relative;
+    position: absolute;
     color: white;
     font-size: 1.25rem;
-    left: 1100px;
-    margin-left: 0.5rem;
+    right: 150px;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-top: 1.625rem;
+    
+}
+
+.link2 {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: 1.25rem;
+    right: 3rem;
+    margin-left: 3rem;
     margin-right: 1rem;
     margin-top: 1.625rem;
 }
+
 
 .navNev {
     color: white;
